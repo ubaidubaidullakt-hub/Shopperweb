@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OLX Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>OLX Clone</h1>
+        <nav>
+            <input type="text" id="search" placeholder="Search items...">
+        </nav>
+    </header>
+
+    <main>
+        <section id="add-item">
+            <h2>Add New Item</h2>
+            <input type="text" id="item-title" placeholder="Item Title">
+            <input type="text" id="item-price" placeholder="Price">
+            <input type="text" id="item-image" placeholder="Image URL">
+            <button id="add-btn">Add Item</button>
+        </section>
+
+        <section id="items-list">
+            <h2>Items for Sale</h2>
+            <div id="items-container"></div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
